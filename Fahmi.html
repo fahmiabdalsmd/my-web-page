@@ -1,0 +1,385 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}لعمل ملف HTML، يمكنك اتباع هذه الخطوات البسيطة:
+
+الخطوات لإنشاء ملف HTML:
+
+1. فتح محرر النصوص:
+
+استخدم أي محرر نصوص متاح لديك. على سبيل المثال:
+
+ويندوز: يمكنك استخدام Notepad.
+
+ماك: يمكنك استخدام TextEdit.
+
+أي نظام: يمكنك استخدام محررات متقدمة مثل Visual Studio Code، Sublime Text، أو Atom.
+
+
+
+
+2. إنشاء ملف جديد:
+
+افتح محرر النصوص، ثم اختر "ملف" (File) ثم "جديد" (New) لإنشاء ملف جديد.
+
+
+
+3. نسخ الكود:
+
+انسخ الكود الخاص بصفحة الويب التي تريد إنشاءها. هنا هو الكود الذي تم تقديمه سابقًا:
+
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة السعادة النفسية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #4CAF50, #8BC34A);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            color: #333;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        section h2 {
+            color: #4CAF50;
+        }
+        .quote {
+            font-style: italic;
+            margin: 10px 0;
+            color: #555;
+            background: #e8f5e9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .background-image {
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image">
+        <header>
+            <h1>مفاهيم السعادة النفسية</h1>
+            <p>من خلال الربط بين علم النفس والقرآن الكريم</p>
+        </header>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>مقدمة</h2>
+            <p>
+                السعادة النفسية تتحقق من خلال تحقيق التوازن الداخلي وفهم النفس البشرية. يساعدنا علم النفس على استكشاف أعماق النفس، في حين يقدم لنا القرآن الكريم توجيهات تساعدنا على تحقيق السلام الداخلي والتفكر العميق في معاني الحياة.
+            </p>
+        </section>
+
+        <section>
+            <h2>تزكية النفس</h2>
+            <p class="quote">"وَنَفْسٍ وَمَا سَوَّاهَا، فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا، قَدْ أَفْلَحَ مَنْ زَكَّاهَا، وَقَدْ خَابَ مَنْ دَسَّاهَا" (الشمس: 7-10)</p>
+            <p>
+                تدعو هذه الآيات إلى تزكية النفس وتطهيرها من السلبيات، وهو ما يتوافق مع مفهوم تطوير الذات في علم النفس لتحقيق النجاح والسعادة.
+            </p>
+        </section>
+
+        <section>
+            <h2>الطمأنينة النفسية</h2>
+            <p class="quote">"أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ" (الرعد: 28)</p>
+            <p>
+                يربط القرآن الكريم الطمأنينة النفسية بذكر الله، مما يعزز مفهوم الدعم الروحي وأثره في تقليل القلق والتوتر كما يشير إليه علم النفس.
+            </p>
+        </section>
+
+        <section>
+            <h2>الثقة والاطمئنان</h2>
+            <p class="quote">"وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ" (آل عمران: 139)</p>
+            <p>
+                تحث هذه الآية على الثقة بالنفس والتفاؤل في الأوقات الصعبة، وهو ما يدعمه علم النفس كأداة لتعزيز الصحة النفسية.
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 صفحة السعادة النفسية. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+
+
+4. حفظ الملف:
+
+بعد لصق الكود في الملف، انتقل إلى "ملف" (File) ثم اختر "حفظ باسم" (Save As).
+
+في خانة "اسم الملف" (File Name)، اكتب index.html.
+
+في خانة "نوع الملف" (Save as type)، اختر "All Files" (جميع الملفات) إذا كنت تستخدم Notepad.
+
+اختر مكان الحفظ، ثم انقر على "حفظ" (Save).
+
+
+
+
+الخطوة التالية: فتح الملف في المتصفح
+
+1. فتح المتصفح:
+
+افتح متصفح الإنترنت (مثل Google Chrome أو Firefox).
+
+
+
+2. فتح الملف:
+
+اسحب ملف index.html إلى نافذة المتصفح، أو انقر على "ملف" (File) في المتصفح ثم اختر "فتح" (Open) وحدد الملف من جهاز الكمبيوتر.
+
+
+
+
+الخطوة الأخيرة: رؤية الصفحة
+
+يجب أن ترى الآن صفحة الويب الخاصة بك تعرض المحتوى والتصميم الذي أعددته.
+
+
+إذا كنت بحاجة إلى أي مساعدة إضافية في أي من الخطوات، فلا تتردد في السؤال!
+
+    
